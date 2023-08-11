@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+     font-family: 'Cabin', sans-serif;
+    font-family: 'Quicksand', sans-serif;;
+}
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+    padding: 10px;
+    
+}
+.a:hover{
+    color: white;
+    background-color: rgb(107, 43, 196);
+    border-radius: 8px;
+    background-size: 20px 20px;
+}
+.topleft{
+    width: 50%;
+    padding: 12px 0;
+
+
+}
+.topright{
+    width: 50%;
+    
+}
+.img1{
+    width: 200px;
+    padding-left: 190px;
+}
+.img2{
+    width: 600px;
+    height: 380px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.section1{
+    height: 400px;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+}
+.section2 h1{
+    font-size: 3rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.box{
+    padding: 8px 0px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(180, 28, 207);
+    text-align: center;
+    border-radius: 8px;
+}
+.box:hover{
+    background-color:rgb(180, 28, 207);
+    color: white;
+    
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+
+}
+.big{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.section3 h2{
+    text-align: center;
+}
+.photo{
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
